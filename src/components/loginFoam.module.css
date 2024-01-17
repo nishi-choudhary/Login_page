@@ -1,0 +1,54 @@
+.form{
+    height: 20rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+    border-radius: 1rem;
+    box-shadow: 0 45px 65px rgba(0,0,0,0.50), 0 35px 22px rgba(0,0,0,0.16);
+}
+
+h1,.icon{
+    color: rgb(7, 129, 129);
+    cursor: pointer;
+    text-shadow: 3px 3px 3px rgb(43, 84, 97);;
+}
+.loginbutton{
+    width: 90%;
+    background-color: rgb(7, 129, 129);
+    border-radius: 0.6rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    box-shadow: 5px 4px 4px rgb(43, 84, 97);
+    color: aliceblue;
+    font-family: cursive;
+    
+}
+.loginbutton :hover{
+    background-color: rgb(1, 16, 16);
+}
+.inputCont{
+    width: 80%;
+    display: flex;
+    gap: 0.5rem;
+    border-bottom: 2px rgb(103, 101, 101);
+}
+.password{
+    width: 90%;
+}
+.locks{
+    text-shadow: 3px 3px 3px rgb(43, 84, 97);;
+   
+  }
+.name{
+    color: white;
+    text-shadow: 2px 2px 4px  rgb(7, 129, 129);;
+    display: flex;
+    gap:11rem
+    
+}
+
+
+
